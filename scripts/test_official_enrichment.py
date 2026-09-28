@@ -10,7 +10,7 @@ class OfficialEnrichmentTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.data = json.loads((P / 'osaka_places_150_fresh.json').read_text())
-        cls.ledger = json.loads((P / 'official_enrichment_20260928.json').read_text())
+        cls.ledger = json.loads((P / cls.data['latest_enrichment_checks_file']).read_text())
         cls.records = {r['place']['place_id']: r for r in cls.data['places']}
 
     def test_identity_coordinates_and_blockers_preserved(self):

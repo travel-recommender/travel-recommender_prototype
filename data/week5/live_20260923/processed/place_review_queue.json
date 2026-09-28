@@ -2,9 +2,9 @@
   "reviewed_at": "2026-09-28",
   "statistics": {
     "records": 150,
-    "records_with_value_changes": 110,
-    "null_fields_filled": 251,
-    "non_null_fields_updated": 46,
+    "records_with_value_changes": 122,
+    "null_fields_filled": 316,
+    "non_null_fields_updated": 65,
     "missing_before": {
       "place_id": 0,
       "name": 0,
@@ -28,20 +28,20 @@
       "name": 0,
       "name_ko": 110,
       "category": 0,
-      "area": 42,
-      "address": 42,
+      "area": 31,
+      "address": 33,
       "latitude": 0,
       "longitude": 0,
-      "opening_hours": 26,
-      "cost": 127,
+      "opening_hours": 23,
+      "cost": 118,
       "stay_min": 147,
       "bag_load": 150,
-      "covered": 127,
-      "website": 12,
-      "opening_hours_source": 66,
-      "verified_at": 39
+      "covered": 116,
+      "website": 11,
+      "opening_hours_source": 57,
+      "verified_at": 27
     },
-    "records_with_blockers": 31
+    "records_with_blockers": 33
   },
   "places": [
     {
@@ -271,13 +271,15 @@
       "address_status": "verified",
       "hours_status": "missing",
       "blockers": [],
-      "notes": [],
+      "notes": [
+        "오사카 관광국의 일반 참배 무료 안내. 유료 기도·결혼식 제외. 과거 여름 개문 공지를 연중 시간으로 적용하지 않음."
+      ],
       "source_urls": [
+        "https://osaka-info.jp/experience/ja/osaka/spot/261",
         "https://osakatemmangu.or.jp/"
       ],
       "missing_fields": [
         "opening_hours",
-        "cost",
         "stay_min",
         "bag_load",
         "covered",
@@ -295,13 +297,14 @@
       "hours_status": "verified",
       "blockers": [],
       "notes": [
-        "경내 통행시간과 유료시설 관람시간을 구분. 특별일 운영시간은 별도 확인."
+        "경내 통행시간과 유료시설 관람시간을 구분. 특별일 운영시간은 별도 확인.",
+        "성인 개인 중심가람 관람 기준 500엔. 정원 300엔·보물관 500엔 별도. 매월 21·22일 및 춘추 피안회 중심가람 무료 개방 예외."
       ],
       "source_urls": [
+        "https://www.shitennoji.or.jp/admission.html",
         "https://www.shitennoji.or.jp/map.html"
       ],
       "missing_fields": [
-        "cost",
         "stay_min",
         "bag_load",
         "covered"
@@ -319,15 +322,16 @@
       "blockers": [],
       "notes": [
         "요금은 성인 상설전 개인 입장료 JPY. 특별전 별도. 임시 휴관은 방문일별 확인.",
-        "기존 출처와 필드 상태 검토. 이번 회차에서 새로 확정한 주소·영업시간 없음."
+        "기존 출처와 필드 상태 검토. 이번 회차에서 새로 확정한 주소·영업시간 없음.",
+        "공식 안내의 10층·9층 등 박물관 상설 전시 관람 기준. 외부 유적 탐방 제외."
       ],
       "source_urls": [
+        "https://www.osakamushis.jp/",
         "https://www.osakamushis.jp/visit/fee.html"
       ],
       "missing_fields": [
         "stay_min",
-        "bag_load",
-        "covered"
+        "bag_load"
       ],
       "schedule_ready": false
     },
@@ -385,15 +389,15 @@
       "address_status": "verified",
       "hours_status": "verified",
       "blockers": [],
-      "notes": [],
+      "notes": [
+        "공원 일반 산책 무료·야외 기준. 천수각·니시노마루 및 개별 시설 이용료 제외."
+      ],
       "source_urls": [
         "https://osaka-info.jp/spot/osaka-castle-park/"
       ],
       "missing_fields": [
-        "cost",
         "stay_min",
-        "bag_load",
-        "covered"
+        "bag_load"
       ],
       "schedule_ready": false
     },
@@ -432,13 +436,14 @@
       "blockers": [],
       "notes": [
         "나카노시마 공원과 장미정원 구역 범위 구분 필요.",
-        "공식 관광 안내: 공원 내 야외 장미원 포함. 식당 영업시간과 구분."
+        "공식 관광 안내: 공원 내 야외 장미원 포함. 식당 영업시간과 구분.",
+        "오사카 관광국 장미원 무료 관람 안내. 인근 유람선 등 유료 활동 제외."
       ],
       "source_urls": [
+        "https://osaka-info.jp/experience/ja/osaka/spot/244",
         "https://osaka-info.jp/spot/nakanoshima-park/"
       ],
       "missing_fields": [
-        "cost",
         "stay_min",
         "bag_load"
       ],
@@ -477,16 +482,16 @@
       "blockers": [],
       "notes": [
         "공원 소재 지역 주소.",
-        "기존 공식 검증 기록의 시설 안내 페이지를 다시 열어 관련 시설·지점을 확인. 전용 홈페이지가 없는 공원은 시청 공식 소개 링크 사용."
+        "기존 공식 검증 기록의 시설 안내 페이지를 다시 열어 관련 시설·지점을 확인. 전용 홈페이지가 없는 공원은 시청 공식 소개 링크 사용.",
+        "공식 관리 사이트의 무료 야외 장미원 산책 기준. 공원 전체의 테니스장 등 유료 체육시설은 제외."
       ],
       "source_urls": [
-        "https://parksgreenery.city.osaka.lg.jp/article/parks-utsubo/"
+        "https://parksgreenery.city.osaka.lg.jp/article/parks-utsubo/",
+        "https://utsubotennis.osaka/rose_garden/"
       ],
       "missing_fields": [
-        "cost",
         "stay_min",
-        "bag_load",
-        "covered"
+        "bag_load"
       ],
       "schedule_ready": false
     },
@@ -610,24 +615,24 @@
       "place_id": "osaka_025",
       "name": "かに道楽",
       "name_ko": "카니도라쿠",
-      "address": null,
+      "address": "大阪府大阪市中央区道頓堀1-6-18",
       "opening_hours": "Mo-Su 11:00-23:00",
-      "address_status": "missing",
+      "address_status": "verified",
       "hours_status": "unverified",
       "blockers": [],
       "notes": [
-        "카니도라쿠 본점 전용 안내 확인 필요. 브랜드 공통정보 복사하지 않음."
+        "카니도라쿠 본점 전용 안내 확인 필요. 브랜드 공통정보 복사하지 않음.",
+        "공식 사업장 목록의 도톤보리 본점. 기존 OSM branch=道頓堀本店과 대조. 본부·중점·동점 주소와 구분."
       ],
-      "source_urls": [],
+      "source_urls": [
+        "https://douraku.co.jp/company/network.html"
+      ],
       "missing_fields": [
-        "area",
-        "address",
         "cost",
         "stay_min",
         "bag_load",
         "covered",
-        "opening_hours_source",
-        "verified_at"
+        "opening_hours_source"
       ],
       "schedule_ready": false
     },
@@ -1042,16 +1047,16 @@
         "temporary_closure"
       ],
       "notes": [
-        "2026-09-01부터 2027-01-05까지 휴관. 기존 정규 운영시간으로 방문 가능 판단 금지."
+        "2026-09-01부터 2027-01-05까지 휴관. 기존 정규 운영시간으로 방문 가능 판단 금지.",
+        "성인 개인 일반 관람료 600엔, 실내 전시장 기준. 기존 임시휴관 경고는 유지하며 방문일 운영 여부 별도 확인. 특별전·유료 짐 보관료 제외."
       ],
       "source_urls": [
-        "https://www.osaka-angenet.jp/konjyakukan/"
+        "https://www.osaka-angenet.jp/konjyakukan/",
+        "https://www.osaka-angenet.jp/konjyakukan/faq"
       ],
       "missing_fields": [
-        "cost",
         "stay_min",
         "bag_load",
-        "covered",
         "opening_hours_source"
       ],
       "schedule_ready": false
@@ -1363,24 +1368,25 @@
       "name": "日本基督教団大阪教会",
       "name_ko": null,
       "address": "大阪府大阪市西区江戸堀1-23-17",
-      "opening_hours": null,
+      "opening_hours": "일요일 오전·목요일 정오·금요일 저녁 예배에 참석한 뒤 관람 가능; 상시 개방하지 않음",
       "address_status": "verified",
-      "hours_status": "missing",
-      "blockers": [],
+      "hours_status": "verified",
+      "blockers": [
+        "worship_attendance_required"
+      ],
       "notes": [
-        "전화 응대시간을 관광 관람시간으로 사용하지 않음."
+        "전화 응대시간을 관광 관람시간으로 사용하지 않음.",
+        "교회 공식 관람 안내. 전화 접수시간을 관람시간으로 사용하지 않음. 예배 외 시간의 관람 대응이 어렵다고 명시."
       ],
       "source_urls": [
-        "https://www.osaka-church.net/"
+        "https://www.osaka-church.net/",
+        "https://www.osaka-church.net/kengaku"
       ],
       "missing_fields": [
         "name_ko",
-        "opening_hours",
         "cost",
         "stay_min",
-        "bag_load",
-        "covered",
-        "opening_hours_source"
+        "bag_load"
       ],
       "schedule_ready": false
     },
@@ -1416,26 +1422,24 @@
       "place_id": "osaka_draft_006a0c207d8c",
       "name": "歯神社",
       "name_ko": null,
-      "address": null,
-      "opening_hours": null,
-      "address_status": "missing",
-      "hours_status": "missing",
+      "address": "大阪市北区角田町2-8",
+      "opening_hours": "무인 소규모 신사로 수시 참배 가능; 부적 수여는 별도 오타비샤에서 진행",
+      "address_status": "verified",
+      "hours_status": "verified",
       "blockers": [],
       "notes": [
-        "자유 참배 안내는 있으나 상세 주소·적용 범위 재확인 필요."
+        "자유 참배 안내는 있으나 상세 주소·적용 범위 재확인 필요.",
+        "하 신사 항목만 적용. 같은 페이지의 본사·오타비샤 주소 및 접수시간과 구분."
       ],
-      "source_urls": [],
+      "source_urls": [
+        "https://tunashiki.sakura.ne.jp/koutuu.html"
+      ],
       "missing_fields": [
         "name_ko",
-        "area",
-        "address",
-        "opening_hours",
         "cost",
         "stay_min",
         "bag_load",
-        "covered",
-        "opening_hours_source",
-        "verified_at"
+        "covered"
       ],
       "schedule_ready": false
     },
@@ -1492,22 +1496,22 @@
       "name": "高津宮",
       "name_ko": null,
       "address": "大阪市中央区高津1-1-29",
-      "opening_hours": null,
+      "opening_hours": "경내 06:00–18:00; 신전 17:00 닫음; 사무소 09:00–17:00, 기도 접수 16:00까지",
       "address_status": "verified",
-      "hours_status": "missing",
+      "hours_status": "verified",
       "blockers": [],
-      "notes": [],
+      "notes": [
+        "오사카 관광국 고즈구 안내. cost는 일반 참배 기준으로 유료 기도·행사 제외."
+      ],
       "source_urls": [
-        "https://kouzu.or.jp/"
+        "https://kouzu.or.jp/",
+        "https://osaka-info.jp/experience/ja/osaka/spot/529"
       ],
       "missing_fields": [
         "name_ko",
-        "opening_hours",
-        "cost",
         "stay_min",
         "bag_load",
-        "covered",
-        "opening_hours_source"
+        "covered"
       ],
       "schedule_ready": false
     },
@@ -1597,7 +1601,8 @@
       "hours_status": "verified",
       "blockers": [],
       "notes": [
-        "기존 공식 검증 기록의 시설 안내 페이지를 다시 열어 관련 시설·지점을 확인. 전용 홈페이지가 없는 공원은 시청 공식 소개 링크 사용."
+        "기존 공식 검증 기록의 시설 안내 페이지를 다시 열어 관련 시설·지점을 확인. 전용 홈페이지가 없는 공원은 시청 공식 소개 링크 사용.",
+        "시청 공식 안내의 쇼와산·산책로 등 주요 야외 공간 기준. 공원 안 체육관은 별도."
       ],
       "source_urls": [
         "https://parksgreenery.city.osaka.lg.jp/article/expo_park7/"
@@ -1606,8 +1611,7 @@
         "name_ko",
         "cost",
         "stay_min",
-        "bag_load",
-        "covered"
+        "bag_load"
       ],
       "schedule_ready": false
     },
@@ -1675,20 +1679,19 @@
         "hours_conflict"
       ],
       "notes": [
-        "기존 24시간 표기와 공원 공개 이용시간 자료가 다름. 대상 구역·최신 규정 확인 필요."
+        "기존 24시간 표기와 공원 공개 이용시간 자료가 다름. 대상 구역·최신 규정 확인 필요.",
+        "나가라 지구 공식 안내의 기타구와 야외 잔디광장 확인. 관리사무소 소재지 모리구치시는 이 장소 주소로 사용하지 않음. 계절별 개원시간은 기존 충돌 표시 유지."
       ],
-      "source_urls": [],
+      "source_urls": [
+        "https://www.yodogawa-park.jp/annai/nagara-kahan/"
+      ],
       "missing_fields": [
         "name_ko",
-        "area",
         "address",
         "cost",
         "stay_min",
         "bag_load",
-        "covered",
-        "website",
-        "opening_hours_source",
-        "verified_at"
+        "opening_hours_source"
       ],
       "schedule_ready": false
     },
@@ -2593,27 +2596,25 @@
       "place_id": "osaka_draft_d52fee5c2304",
       "name": "Holly's Cafe",
       "name_ko": null,
-      "address": null,
-      "opening_hours": "Mo-Fr 06:30-23:00; Sa,Su,PH 06:30-21:00",
-      "address_status": "missing",
-      "hours_status": "unverified",
+      "address": "大阪府大阪市中央区本町2-1-6 堺筋本町センタービル1F",
+      "opening_hours": "평일 06:30–23:00; 토·일·공휴일 06:30–21:00; 주문은 폐점 30분 전까지; 비정기 휴무",
+      "address_status": "verified",
+      "hours_status": "verified",
       "blockers": [
         "branch_unconfirmed"
       ],
       "notes": [
-        "브랜드 전체 사이트만 확인. 홀리스 개별 지점 확인 필요."
+        "브랜드 전체 사이트만 확인. 홀리스 개별 지점 확인 필요.",
+        "사카이스지혼마치점 공식 주소·운영시간. 기존 좌표의 센터빌딩 위치 및 평일/주말 시간이 일치. 실내 좌석 기준; 기존 지점 주의 표시는 유지."
       ],
-      "source_urls": [],
+      "source_urls": [
+        "https://hollys-corp.jp/shop/o_sakaisujihon/"
+      ],
       "missing_fields": [
         "name_ko",
-        "area",
-        "address",
         "cost",
         "stay_min",
-        "bag_load",
-        "covered",
-        "opening_hours_source",
-        "verified_at"
+        "bag_load"
       ],
       "schedule_ready": false
     },
@@ -2822,25 +2823,24 @@
       "place_id": "osaka_draft_32974d974e62",
       "name": "ケーキ＆カフェダイニング　ボナボン",
       "name_ko": null,
-      "address": null,
-      "opening_hours": "09:00-21:00; Fr,Sa,PH -1 day 09:00-23:00",
-      "address_status": "missing",
-      "hours_status": "unverified",
+      "address": "大阪市淀川区十三東1-20-3 ザ・グランビュー大阪1F",
+      "opening_hours": "일–목 09:00–21:00(주문 20:00까지); 금·토·공휴일 전날 09:00–23:00(주문 22:00까지)",
+      "address_status": "verified",
+      "hours_status": "verified",
       "blockers": [],
       "notes": [
-        "공식 공지가 과거 연도 자료여서 현재 시간으로 확정하지 않음."
+        "공식 공지가 과거 연도 자료여서 현재 시간으로 확정하지 않음.",
+        "보나본 공식 매장 안내. 2024년 메뉴 개편 공지가 있어 오래된 메뉴 가격은 사용하지 않음."
       ],
-      "source_urls": [],
+      "source_urls": [
+        "https://bonandbon.jp/company/"
+      ],
       "missing_fields": [
         "name_ko",
-        "area",
-        "address",
         "cost",
         "stay_min",
         "bag_load",
-        "covered",
-        "opening_hours_source",
-        "verified_at"
+        "covered"
       ],
       "schedule_ready": false
     },
@@ -2956,19 +2956,20 @@
       "hours_status": "unverified",
       "blockers": [],
       "notes": [
-        "이전 URL과 신규 사이트의 같은 지점 여부 미확인."
+        "이전 URL과 신규 사이트의 같은 지점 여부 미확인.",
+        "공식 an39 사이트의 오사카 후쿠시마구 매장. cost는 부다볼+수프 한 메뉴 1580엔 기준으로 평균 식비가 아님. 상세 번지는 공식 확인하지 못해 빈칸 유지."
       ],
-      "source_urls": [],
+      "source_urls": [
+        "https://superfoodcafe-an39.jp/",
+        "https://superfoodcafe-an39.jp/menu/"
+      ],
       "missing_fields": [
         "name_ko",
-        "area",
         "address",
-        "cost",
         "stay_min",
         "bag_load",
         "covered",
-        "opening_hours_source",
-        "verified_at"
+        "opening_hours_source"
       ],
       "schedule_ready": false
     },
@@ -3038,18 +3039,19 @@
       "hours_status": "unverified",
       "blockers": [],
       "notes": [
-        "대학 나카노시마센터 내 점포와 호텔 본사 주소를 구분해야 함."
+        "대학 나카노시마센터 내 점포와 호텔 본사 주소를 구분해야 함.",
+        "아고라 공식 카페 메뉴의 오므라이스 단품 1000엔 기준. 음료 세트는 1200엔으로 별도. 평균 식비가 아니며 세금 포함 여부는 해당 가격 문구에서 미확인."
       ],
-      "source_urls": [],
+      "source_urls": [
+        "https://www.rihga.co.jp/osaka/restaurant/list/cafeteria-agora"
+      ],
       "missing_fields": [
         "name_ko",
         "area",
-        "cost",
         "stay_min",
         "bag_load",
         "covered",
-        "opening_hours_source",
-        "verified_at"
+        "opening_hours_source"
       ],
       "schedule_ready": false
     },
@@ -3240,27 +3242,26 @@
       "place_id": "osaka_draft_98a4211ed755",
       "name": "きりん寺 大阪総本店",
       "name_ko": null,
-      "address": null,
-      "opening_hours": "Mo-Su 11:30-16:30, 18:00-22:00",
-      "address_status": "missing",
-      "hours_status": "unverified",
+      "address": "大阪市浪速区日本橋5-11-12",
+      "opening_hours": "11:00–16:30, 18:00–22:00; 연중무휴",
+      "address_status": "verified",
+      "hours_status": "verified",
       "blockers": [
         "branch_unconfirmed"
       ],
       "notes": [
-        "브랜드 전환·지점 혼동 가능. 회사 주소를 점포 주소로 사용하지 않음."
+        "브랜드 전환·지점 혼동 가능. 회사 주소를 점포 주소로 사용하지 않음.",
+        "오사카 총본점 주소·전화가 기존 OSM 지점 정보와 일치. OSM의 11:30 개점 대신 공식 11:00 적용. 기존 지점 주의 표시는 검토 이력으로 유지."
       ],
-      "source_urls": [],
+      "source_urls": [
+        "https://suzume-group.co.jp/kirinji/"
+      ],
       "missing_fields": [
         "name_ko",
-        "area",
-        "address",
         "cost",
         "stay_min",
         "bag_load",
-        "covered",
-        "opening_hours_source",
-        "verified_at"
+        "covered"
       ],
       "schedule_ready": false
     },
@@ -3268,25 +3269,24 @@
       "place_id": "osaka_draft_7d6ecfb032b6",
       "name": "もりもり寿し",
       "name_ko": null,
-      "address": null,
-      "opening_hours": "Mo-Su 11:00-22:00",
-      "address_status": "missing",
-      "hours_status": "unverified",
+      "address": "大阪市西区千代崎3-13-1 イオンモール大阪ドームシティ4F",
+      "opening_hours": "11:00–21:00; 최종 입점 20:00, 주문 20:30까지",
+      "address_status": "verified",
+      "hours_status": "verified",
       "blockers": [],
       "notes": [
-        "이온몰 입점 지점의 공식 안내 확인 필요."
+        "이온몰 입점 지점의 공식 안내 확인 필요.",
+        "기존 OSM 영문 지점명과 번지가 도쿄돔이 아닌 오사카돔점과 일치. 쇼핑몰 공식 주소와 4층 매장 위치 결합. 실내 식당 기준."
       ],
-      "source_urls": [],
+      "source_urls": [
+        "https://www.aeon.jp/sc/osakadomecity/access/",
+        "https://www.aeon.jp/sc/osakadomecity/shop/store/food-185.html"
+      ],
       "missing_fields": [
         "name_ko",
-        "area",
-        "address",
         "cost",
         "stay_min",
-        "bag_load",
-        "covered",
-        "opening_hours_source",
-        "verified_at"
+        "bag_load"
       ],
       "schedule_ready": false
     },
@@ -3294,25 +3294,23 @@
       "place_id": "osaka_draft_d0e6cdcb566f",
       "name": "アルバール",
       "name_ko": null,
-      "address": null,
-      "opening_hours": "Mo-Fr 11:30-22:30; Su 11:30-22:00; PH 11:30-22:00",
-      "address_status": "missing",
-      "hours_status": "unverified",
+      "address": "大阪府大阪市東淀川区淡路4-11-15 2F",
+      "opening_hours": "평일·공휴일 전날 11:30–16:00(주문 15:30까지), 17:00–22:30(주문 22:00까지); 토·일·공휴일 11:30–22:30(주문 22:00까지); 정기휴무 없음",
+      "address_status": "verified",
+      "hours_status": "verified",
       "blockers": [],
       "notes": [
-        "공식 사이트 취득 실패. 제3자 정보만으로 확정하지 않음."
+        "공식 사이트 취득 실패. 제3자 정보만으로 확정하지 않음.",
+        "ALBAR 아와지점 공식 운영 페이지. 실내 좌석·테라스 없음 확인. 가격 범위는 단일 cost로 환산하지 않음."
       ],
-      "source_urls": [],
+      "source_urls": [
+        "https://albar-awaji.owst.jp/"
+      ],
       "missing_fields": [
         "name_ko",
-        "area",
-        "address",
         "cost",
         "stay_min",
-        "bag_load",
-        "covered",
-        "opening_hours_source",
-        "verified_at"
+        "bag_load"
       ],
       "schedule_ready": false
     },
@@ -3346,25 +3344,24 @@
       "place_id": "osaka_draft_2eb759c40909",
       "name": "サイゼリヤ",
       "name_ko": null,
-      "address": null,
-      "opening_hours": "11:00-02:00",
-      "address_status": "missing",
-      "hours_status": "unverified",
+      "address": "大阪府大阪市淀川区西宮原2-7-8 ヴィラフェニックス1F",
+      "opening_hours": "10:00–다음날 01:00",
+      "address_status": "verified",
+      "hours_status": "verified",
       "blockers": [],
       "notes": [
-        "사이제리야 기존 지점 링크 취득 실패. 지점 ID 대조 필요."
+        "사이제리야 기존 지점 링크 취득 실패. 지점 ID 대조 필요.",
+        "공식 점포 코드 1031, 신오사카역 니시미야하라점. 기존 주소 구성요소·전화와 대조. 기존 11:00–02:00를 공식 시간으로 정정."
       ],
-      "source_urls": [],
+      "source_urls": [
+        "https://shop.saizeriya.co.jp/sz_restaurant/spot/detail?code=1031"
+      ],
       "missing_fields": [
         "name_ko",
-        "area",
-        "address",
         "cost",
         "stay_min",
         "bag_load",
-        "covered",
-        "opening_hours_source",
-        "verified_at"
+        "covered"
       ],
       "schedule_ready": false
     },
@@ -3715,24 +3712,26 @@
       "place_id": "osm_way_151816175",
       "name": "天保山マーケットプレース",
       "name_ko": "덴포잔 마켓 플레이스",
-      "address": null,
+      "address": "大阪府大阪市港区海岸通1-1-10",
       "opening_hours": "Mo-Su 11:00-20:00",
-      "address_status": "missing",
+      "address_status": "verified",
       "hours_status": "unverified",
-      "blockers": [],
-      "notes": [
-        "공식 페이지 시간의 00:00 표시는 로딩용 자리표시자. 실제 영업시간으로 사용하지 않음."
+      "blockers": [
+        "date_specific_hours_required"
       ],
-      "source_urls": [],
+      "notes": [
+        "공식 페이지 시간의 00:00 표시는 로딩용 자리표시자. 실제 영업시간으로 사용하지 않음.",
+        "시청 공식 행사 공지의 마켓플레이스 시설 주소와 운영사 층별 안내 확인. covered는 실내 쇼핑 공간. 영업시간은 방문일별 공식 달력 확인 필요."
+      ],
+      "source_urls": [
+        "https://www.city.osaka.lg.jp/hodoshiryo/port/0000668679.html",
+        "https://www.kaiyukan.com/thv/marketplace/floor.html"
+      ],
       "missing_fields": [
-        "area",
-        "address",
         "cost",
         "stay_min",
         "bag_load",
-        "covered",
-        "opening_hours_source",
-        "verified_at"
+        "opening_hours_source"
       ],
       "schedule_ready": false
     },
@@ -3818,5 +3817,6 @@
       "opening_hours_source": 83,
       "verified_at": 62
     }
-  }
+  },
+  "latest_enrichment_revision": "official_fields_20260928_v2"
 }
