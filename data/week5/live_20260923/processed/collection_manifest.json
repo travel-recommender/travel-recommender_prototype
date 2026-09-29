@@ -42,16 +42,16 @@
     "selected_missing": {
       "place_id": 0,
       "name": 0,
-      "name_ko": 110,
+      "name_ko": 0,
       "category": 0,
-      "area": 31,
-      "address": 33,
+      "area": 3,
+      "address": 2,
       "latitude": 0,
       "longitude": 0,
       "opening_hours": 23,
       "cost": 118,
-      "stay_min": 147,
-      "bag_load": 150,
+      "stay_min": 0,
+      "bag_load": 0,
       "covered": 116,
       "website": 11,
       "opening_hours_source": 57,
@@ -93,12 +93,12 @@
     }
   },
   "full_review_checks_sha256": "5befd6e815dea66bcad5e60157ed0a12a414635c1527310ceb311bd48e927751",
-  "latest_enrichment_revision": "official_fields_20260928_v2",
+  "latest_enrichment_revision": "team_planning_rules_20260929",
   "latest_enrichment_statistics": {
     "records": 150,
-    "records_with_value_changes": 122,
-    "null_fields_filled": 316,
-    "non_null_fields_updated": 65,
+    "records_with_value_changes": 150,
+    "null_fields_filled": 782,
+    "non_null_fields_updated": 66,
     "missing_before": {
       "place_id": 0,
       "name": 0,
@@ -120,22 +120,25 @@
     "missing_after": {
       "place_id": 0,
       "name": 0,
-      "name_ko": 110,
+      "name_ko": 0,
       "category": 0,
-      "area": 31,
-      "address": 33,
+      "area": 3,
+      "address": 2,
       "latitude": 0,
       "longitude": 0,
       "opening_hours": 23,
       "cost": 118,
-      "stay_min": 147,
-      "bag_load": 150,
+      "stay_min": 0,
+      "bag_load": 0,
       "covered": 116,
       "website": 11,
       "opening_hours_source": 57,
       "verified_at": 27
     },
-    "records_with_blockers": 33
+    "records_with_blockers": 42,
+    "official_null_fields_filled_before_localization": 316,
+    "editorial_korean_names_filled": 110,
+    "map_addresses_added": 31
   },
-  "latest_enrichment_checks_sha256": "a461920aac6cc564dc0abfa33f8442ae2b5778ae72483042833fec49e0f136b4"
+  "latest_enrichment_checks_sha256": "a8f0a0a93bf09972bf9c701591a72c50c5af742e83552da742762d6d911b5685"
 }

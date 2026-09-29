@@ -54,7 +54,7 @@ class OfficialEnrichmentTests(unittest.TestCase):
             self.assertEqual(x['blockers'], r['review']['recommendation_blockers'])
 
     def test_unknown_values_are_not_filled_with_defaults(self):
-        self.assertTrue(all(r['place']['bag_load'] is None for r in self.records.values()))
+        self.assertTrue(all(r['field_sources']['bag_load']['kind'] == 'team_rule_estimate' for r in self.records.values()))
         for r in self.records.values():
             p = r['place']
             if p['covered'] is not None:
