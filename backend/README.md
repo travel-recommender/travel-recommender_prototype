@@ -4,7 +4,7 @@
 
 ## 실행
 
-Python 3.10 이상과 Node.js 24 이상이 필요합니다. 별도 Python/npm 패키지는 필요 없습니다. Node가 PATH에 없으면 `NODE_BINARY`로 실행 파일을 지정하세요. 현재 작업 컴퓨터에서는 Codex 번들 Node도 자동 감지합니다.
+Python 3.10 이상과 Node.js 24 이상이 필요합니다. 별도 Python/npm 패키지는 필요 없습니다. Node가 PATH에 없으면 `NODE_BINARY`로 실행 파일을 지정하세요. 시작할 때 버전을 확인하며, Node 24 미만이면 필요한 버전을 안내하고 종료합니다.
 
 ```sh
 cd backend
